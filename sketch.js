@@ -4,6 +4,8 @@ let img_l;
 
 function preload(){
   img_r = loadImage('img/right.png');
+  img_m = loadImage('img/middle.png');
+  img_l = loadImage('img/left.png');
 }
 
 function setup() {

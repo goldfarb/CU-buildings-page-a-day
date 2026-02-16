@@ -1,1 +1,1 @@
-# CU-buildings-page-a-day
+# CU Buildings: 2026 Page-A-Day

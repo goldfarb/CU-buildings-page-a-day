@@ -11,7 +11,7 @@ function preload(){
 function setup() {
   createCanvas(400, 400);
   
-  background(200,100,60);
+  background(100,100,60);
   
   img_r.loadPixels();
 
@@ -24,11 +24,49 @@ function setup() {
         img_r.pixels[i + 1] = 110; // New G
         img_r.pixels[i + 2] = 255; // New B
     }
-
-  
   img_r.updatePixels();
   
-  
   image(img_r, 0, 0, width, height, 0, 0, img_r.width, img_r.height, CONTAIN);
+
+
+  function setup() {
+  createCanvas(400, 400);
+  
+  background(100,100,60);
+  
+  img_m.loadPixels();
+
+      for (let i = 0; i < img_m.pixels.length; i += 4) {
+        let r = img_m.pixels[i];
+        let g = img_m.pixels[i + 1];
+        let b = img_m.pixels[i + 2];
+
+        img_m.pixels[i] = 0;   // New R
+        img_m.pixels[i + 1] = 110; // New G
+        img_m.pixels[i + 2] = 255; // New B
+    }
+  img_m.updatePixels();
+  
+  image(img_m, 0, 0, width, height, 0, 0, img_m.width, img_m.height, CONTAIN);
+
+    function setup() {
+  createCanvas(400, 400);
+  
+  background(100,100,60);
+  
+  img_l.loadPixels();
+
+      for (let i = 0; i < img_l.pixels.length; i += 4) {
+        let r = img_l.pixels[i];
+        let g = img_l.pixels[i + 1];
+        let b = img_l.pixels[i + 2];
+
+        img_l.pixels[i] = 0;   // New R
+        img_l.pixels[i + 1] = 110; // New G
+        img_l.pixels[i + 2] = 255; // New B
+    }
+  img_l.updatePixels();
+  
+  image(img_l, 0, 0, width, height, 0, 0, img_l.width, img_l.height, CONTAIN);
   
 }

@@ -1,4 +1,6 @@
 let img_r;
+let img_m;
+let img_l;
 
 function preload(){
   img_r = loadImage('img/right.png');

@@ -28,11 +28,6 @@ function setup() {
   
   image(img_r, 0, 0, width, height, 0, 0, img_r.width, img_r.height, CONTAIN);
 
-
-  function setup() {
-  createCanvas(400, 400);
-  
-  background(100,100,60);
   
   img_m.loadPixels();
 
@@ -49,10 +44,7 @@ function setup() {
   
   image(img_m, 0, 0, width, height, 0, 0, img_m.width, img_m.height, CONTAIN);
 
-    function setup() {
-  createCanvas(400, 400);
-  
-  background(100,100,60);
+
   
   img_l.loadPixels();
 
@@ -68,5 +60,4 @@ function setup() {
   img_l.updatePixels();
   
   image(img_l, 0, 0, width, height, 0, 0, img_l.width, img_l.height, CONTAIN);
-  
 }

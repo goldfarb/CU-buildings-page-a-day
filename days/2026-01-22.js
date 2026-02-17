@@ -4,9 +4,9 @@ let img_m;
 let img_l;
 
 function preload(){
-  img_r = loadImage('https://alicegoldfarb.com/CU-buildings-page-a-day/days/img/right.png');
-  img_m = loadImage('https://alicegoldfarb.com/CU-buildings-page-a-day/days/img/middle.png');
-  img_l = loadImage('https://alicegoldfarb.com/CU-buildings-page-a-day/days/img/left.png');
+  img_r = loadImage('https://alicegoldfarb.com/CU-buildings-page-a-day/img/right.png');
+  img_m = loadImage('https://alicegoldfarb.com/CU-buildings-page-a-day/img/middle.png');
+  img_l = loadImage('https://alicegoldfarb.com/CU-buildings-page-a-day/img/left.png');
 }
 
 
